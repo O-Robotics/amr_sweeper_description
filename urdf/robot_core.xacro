@@ -25,7 +25,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>           
-                <mesh   filename="file://$(find AMR-Sweeper_description)/urdf/meshes/Chassis.dae" />  
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/urdf/meshes/Chassis.dae" />  
             </geometry>   
             <material name="grey"/>     
         </visual>
@@ -33,7 +33,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>           
-                <mesh   filename="file://$(find AMR-Sweeper_description)/meshes/Chassis/Chassis.stl" />  
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/meshes/Chassis/Chassis.stl" />  
             </geometry>     
         </collision>
 -->
@@ -58,7 +58,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
             <geometry>
-                <mesh   filename="file://$(find AMR-Sweeper_description)/urdf/meshes/WheelAssembly.dae" />  
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/urdf/meshes/WheelAssembly.dae" />  
             </geometry>
             <material name="yellow"/>       
         </visual>
@@ -66,7 +66,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
             <geometry>
-                <mesh   filename="file://$(find AMR-Sweeper_description)/meshes/WheelAssembly/WheelAssembly.stl" />
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/meshes/WheelAssembly/WheelAssembly.stl" />
             </geometry>       
         </collision>
 
@@ -91,7 +91,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
             <geometry>
-                <mesh   filename="file://$(find AMR-Sweeper_description)/urdf/meshes/WheelAssembly.dae" />  
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/urdf/meshes/WheelAssembly.dae" />  
             </geometry>
             <material name="yellow"/>       
         </visual>
@@ -99,7 +99,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
             <geometry>
-                <mesh   filename="file://$(find AMR-Sweeper_description)/meshes/WheelAssembly/WheelAssembly.stl" />
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/meshes/WheelAssembly/WheelAssembly.stl" />
             </geometry>       
         </collision>
 
@@ -125,7 +125,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh   filename="file://$(find AMR-Sweeper_description)/urdf/meshes/Tool.dae" />  
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/urdf/meshes/Tool.dae" />  
             </geometry>
             <material name="black"/>       
         </visual>
@@ -149,7 +149,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh   filename="file://$(find AMR-Sweeper_description)/urdf/meshes/Brush.dae" />  
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/urdf/meshes/Brush.dae" />  
             </geometry>
             <material name="red"/>       
         </visual>
@@ -157,7 +157,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh   filename="file://$(find AMR-Sweeper_description)/meshes/Tool/Brush.stl" />  
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/meshes/Tool/Brush.stl" />  
             </geometry>       
         </collision>
 
@@ -180,7 +180,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh   filename="file://$(find AMR-Sweeper_description)/urdf/meshes/Tool/Brush.dae" />  
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/urdf/meshes/Tool/Brush.dae" />  
             </geometry>
             <material name="red"/>       
         </visual>
@@ -188,7 +188,7 @@
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-                <mesh   filename="file://$(find AMR-Sweeper_description)/meshes/Tool/Brush.stl" />  
+                <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/meshes/Tool/Brush.stl" />  
             </geometry>       
         </collision>
 
