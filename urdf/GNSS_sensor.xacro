@@ -13,7 +13,7 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>           
-            <mesh   filename="https://raw.githubusercontent.com/O-Robotics/AMR-Sweeper_description/blob/foxglove/meshes/Sensors/GNSS.stl" />
+            <mesh   filename="meshes/Sensors/GNSS.stl" />
             </geometry>
             <material name="black"/>     
         </visual>
