@@ -1,4 +1,4 @@
-# amr-sweeper_description
+# amrsweeper_description
 
 This repository provides the full URDF (Unified Robot Description Format) files for the AMR-Sweeper robot, designed for autonomous cleaning operations. It includes 3D models, configuration files, and launch scripts to facilitate simulation and integration within a ROS 2 environment. The foxglove branch of the repository removes capitalization of letters in file names in an attempt to check if that was causing all members in the foxglove organization from viewing the URDF.
 
@@ -48,7 +48,7 @@ Return to the root of your workspace and build the package:
 
 ```bash
 cd ~/ros2_ws
-colcon build --packages-select amr-sweeper_description
+colcon build --packages-select amrsweeper_description
 ```
 
 
@@ -89,7 +89,7 @@ To launch the robot's description in RViz:
 
 
 ```bash
-ros2 launch amr-sweeper_description rsp.launch.py
+ros2 launch amrsweeper_description rsp.launch.py
 ```
 
 
@@ -99,7 +99,7 @@ To launch the robot in a Gazebo simulation environment:
 
 
 ```bash
-ros2 launch amr-sweeper_description launch_sim.launch.py
+ros2 launch amrsweeper_description launch_sim.launch.py
 ```
 
 
@@ -130,7 +130,7 @@ The repository is organized as follows:
 
 Upon switching to the foxglove branch,key changes made involve:
 
-- Package "AMR-Sweeper_description" is changed to "amr-sweeper_description" (similar to the repo test_urdf)
+- Package "AMR-Sweeper_description" is changed to "amrsweeper_description" (similar to the repo test_urdf)
 - 'urdf/robot_core.xacro'
   -  The mesh file paths start with the package:// command instead of the absolute paths used previously(and in the main branch).
 - 'urdf/GNSS-Sensor.xacro'
