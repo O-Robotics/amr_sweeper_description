@@ -1,6 +1,21 @@
-# AMR-Sweeper_description
+# amr-sweeper_description
 
-This repository provides the full URDF (Unified Robot Description Format) files for the AMR-Sweeper robot, designed for autonomous cleaning operations. It includes 3D models, configuration files, and launch scripts to facilitate simulation and integration within a ROS 2 environment.
+This repository provides the full URDF (Unified Robot Description Format) files for the AMR-Sweeper robot, designed for autonomous cleaning operations. It includes 3D models, configuration files, and launch scripts to facilitate simulation and integration within a ROS 2 environment. The foxglove branch of the repository removes capitalization of letters in file names in an attempt to check if that was causing all members in the foxglove organization from viewing the URDF.
+￼
+LAYOUT
+Default
+￼
+￼
+￼
+GMT+2
+￼
+￼
+Panel
+￼
+Topics
+￼
+Problems
+ 
 
 
 
@@ -123,6 +138,19 @@ The repository is organized as follows:
   - Build instructions for CMake.
 - `package.xml`
   - Package manifest file specifying dependencies and metadata.
+
+
+
+## Foxglove Branch 
+
+Upon switching to the foxglove branch,key changes made involve:
+
+- Package "AMR-Sweeper_description" is changed to "amr-sweeper_description" (similar to the repo test_urdf)
+- 'urdf/robot_core.xacro'
+  -  The mesh file paths start with the package:// command instead of the absolute paths used previously(and in the main branch).
+- 'urdf/GNSS-Sensor.xacro'
+  -  Similar to robot_core.xacro, the mesh file path is changed to include the package:// command.
+
 
 
 ## Acknowledgments
