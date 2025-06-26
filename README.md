@@ -1,23 +1,8 @@
 # amr-sweeper_description
 
 This repository provides the full URDF (Unified Robot Description Format) files for the AMR-Sweeper robot, designed for autonomous cleaning operations. It includes 3D models, configuration files, and launch scripts to facilitate simulation and integration within a ROS 2 environment. The foxglove branch of the repository removes capitalization of letters in file names in an attempt to check if that was causing all members in the foxglove organization from viewing the URDF.
-￼
-LAYOUT
-Default
-￼
-￼
-￼
-GMT+2
-￼
-￼
-Panel
-￼
-Topics
-￼
-Problems
+
  
-
-
 
 ## Features
 ![structure](https://github.com/user-attachments/assets/c968ac2e-3a3e-4bcd-a6e1-c69000b22b92)
@@ -104,7 +89,7 @@ To launch the robot's description in RViz:
 
 
 ```bash
-ros2 launch AMR-Sweeper_description rsp.launch.py
+ros2 launch amr-sweeper_description rsp.launch.py
 ```
 
 
@@ -114,7 +99,7 @@ To launch the robot in a Gazebo simulation environment:
 
 
 ```bash
-ros2 launch AMR-Sweeper_description launch_sim.launch.py
+ros2 launch amr-sweeper_description launch_sim.launch.py
 ```
 
 
