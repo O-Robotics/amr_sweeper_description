@@ -15,7 +15,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
 
     # Specify the name of the package
-    package_name = 'amr-sweeper_description'
+    package_name = 'amrsweeper_description'
     
 
     # Launch AMR-Sweeper Robot State Publisher with sim_time=true and ros2_control=false
