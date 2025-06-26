@@ -13,8 +13,8 @@ import xacro
 def generate_launch_description():
 
     # The name of the package and path to xacro file within the package
-    package_name = 'AMR-Sweeper_description'
-    package_urdf = 'AMR-Sweeper.urdf.xacro'
+    package_name = 'amr-sweeper_description'
+    package_urdf = 'amr-sweeper.urdf.xacro'
 
 
     # Flags to launch as simulation or real robot
