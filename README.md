@@ -63,7 +63,7 @@ Return to the root of your workspace and build the package:
 
 ```bash
 cd ~/ros2_ws
-colcon build --packages-select AMR-Sweeper_description
+colcon build --packages-select amr-sweeper_description
 ```
 
 
@@ -104,7 +104,7 @@ To launch the robot's description in RViz:
 
 
 ```bash
-ros2 launch AMR-Sweeper_description AMR-Sweeper_description.launch.py
+ros2 launch AMR-Sweeper_description rsp.launch.py
 ```
 
 
@@ -114,7 +114,7 @@ To launch the robot in a Gazebo simulation environment:
 
 
 ```bash
-ros2 launch AMR-Sweeper_description AMR-Sweeper_description_sim.launch.py
+ros2 launch AMR-Sweeper_description launch_sim.launch.py
 ```
 
 
