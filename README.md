@@ -99,7 +99,7 @@ To launch the robot in a Gazebo simulation environment:
 
 
 ```bash
-ros2 launch AMR-Sweeper_description AMR-Sweeper_description_sim.launch.py
+ros2 launch amr_sweeper_description amr-sweeper_description_sim.launch.py
 ```
 
 
