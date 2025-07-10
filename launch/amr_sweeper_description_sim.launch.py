@@ -15,7 +15,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
 
     # Specify the name of the package
-    package_name = 'AMR-Sweeper_description'
+    package_name = 'amr_sweeper_description'
     
 
     # Launch AMR-Sweeper Robot State Publisher with sim_time=true and ros2_control=false
@@ -74,7 +74,7 @@ def generate_launch_description():
     spawn_AMRSweeper_sim = Node(                                #note AMR-Sweeper name without "-" due to python
         package='ros_gz_sim', 
         executable='create',
-        arguments=['-topic', 'robot_description', '-name', 'AMR-Sweeper_description', '-z', '0.13'],
+        arguments=['-topic', 'robot_description', '-name', 'amr_sweeper_description', '-z', '0.13'],
         output='screen'
     )
 
